@@ -40,3 +40,4 @@ elif len(name) > 50:
     print("50글자보다 적게 입력하세요")
 else:
     print("좋네요!")
+
