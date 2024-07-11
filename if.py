@@ -21,3 +21,22 @@ if credit=='Good' :
 else:
     price *= 0.8
     print(price)
+
+# AND OR NOT
+
+temper = 35
+if temper > 30:
+    print("더워요")
+else:
+    print("안 더워요")
+
+
+name = "J"
+print(len((name)))
+
+if len(name)<3:
+    print("3글자보다 많이 입력하세요")
+elif len(name) > 50:
+    print("50글자보다 적게 입력하세요")
+else:
+    print("좋네요!")
