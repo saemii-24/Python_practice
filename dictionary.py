@@ -12,3 +12,17 @@ print(customer.get("birthdate", "April")) #April
 print(customer.get("birthdate")) #None
 # None은 주로 값이 없거나 초기화 되지 않은 변수이자 하나의 고유한 객체다. 
 
+customer["Name"] = "tion"
+print(customer["Name"])
+
+message = input(">")
+words = message.split(' ')
+emojis = {
+  ":)": "😊",
+  ":(":"😕"
+}
+
+output =""
+for word in words:
+  output += emojis.get(word,word) + " "
+print(output)
