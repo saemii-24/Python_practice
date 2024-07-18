@@ -56,3 +56,18 @@ for number in numbers:
   if number not in unique:
     unique.append(number)
 print(unique)
+
+#두가지 리스트 합치기
+x = [1,2,3]
+y = [4,5]
+x.extend(y)
+print(x)
+
+#더하기를 사용해 두 리스트를 이을 수도 있음
+print(x+y)
+
+#리스트 선택
+testList = ['a','b','c','d','e','f','g','h','i']
+
+print(testList)
+print(testList[1:5]) #1번 인덱스부터~4번 인덱스까지
